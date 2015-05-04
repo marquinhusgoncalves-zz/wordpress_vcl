@@ -1,0 +1,103 @@
+/* 
+Theme Name: vcl_theme 
+Theme URI: http://www.vcl.com.br 
+Version: 1.0 
+Author: Mundo S A 
+Author URI: http://www.mundosa.com.br 
+*/
+@import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700|Open+Sans:400,300,800);
+
+body {
+	margin: 0;
+	padding: 0; 
+}
+header {
+	width: 100%;
+	height: 160px;
+	background-color: #FFF;
+	opacity: 0.8;
+	z-index: 99;
+	position: fixed;
+}
+footer {
+	height: 380px;
+	background-color: #000;
+}
+#stage {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+.conteudo {
+	width: 952px; 
+	margin: 0 auto;
+}
+.banner_top {
+	height: 810px;
+	background: url("../vcl_theme/img/banner_top.jpg") center;
+}
+.banner_top_text {
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-weight: 700;
+	font-size: 10em;
+	line-height: 1em;
+	color: #636363;
+	text-align: right;
+}
+.segmento {
+	height: 560px;
+	background-color: #464646;
+}
+.segmento_text {
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-weight: 700;
+	font-size: 8em;
+	line-height: 1.1em;
+	color: #FFF;
+	text-align: left;
+}
+.atuacao {
+	height: 600px;
+	background-color: #FFF;
+}
+.atuacao_text {
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 8em;
+	color: #fbbb04;
+}
+.atuacao_text_1 {
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-weight: 700;
+	font-size: 2em;
+	line-height: 1.9em;
+	color: #636363;
+}
+.servicos {
+	height: 900px;
+	background: url("../vcl_theme/img/bg_servicos.jpg") center;
+}
+.servicos_titulo{
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 6em;
+	color: #fbbb04;
+	text-align: center;
+}
+.servicos_box {
+    width:32%;
+    height:100%;
+    position:relative;
+    float:left;
+}
+.servicos p {
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 1em;
+	font-weight: 700;
+	color: #fbbb04;
+	/*text-align: left;*/
+}
+.servicos_descricao {
+	font-family: 'Open Sans Condensed', sans-serif !important;
+	font-size: 1em !important;
+	font-weight: 300 !important;
+	color: #FFF !important;
+}
