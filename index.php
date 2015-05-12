@@ -1,80 +1,86 @@
 <?php get_header(); ?>
-	<div class="banner_top">	
-		<div class="banner_top_text">
-			<div class="conteudo" style="padding-top: 200px">
-				TODOS</br>SERVIÇOS</br><font color="#000">EM BOAS</br>MÃOS</font>
-			</div>	
-		</div>
-	</div>
-	<div class="segmento">
-		<div class="conteudo" style="padding-top: 90px">
-			<div style="width: 150px; float: left">
-				<img style="padding-top: 20px"src="<?php bloginfo('stylesheet_directory');?>/img/icon_residencial.png">
-				<img style="padding: 35px 0" src="<?php bloginfo('stylesheet_directory');?>/img/icon_condominial.png">
-				<img src="<?php bloginfo('stylesheet_directory');?>/img/icon_comercial.png">
-			</div>	
-			<div class="segmento_text" style="width: 780px; float: right">		
-				RESIDENCIAL </br> CONDOMINIAL </br> COMERCIAL
-			</div>
+
+	<section id="banner_top">
+		<div class="container">
+			<p>
+				TODOS SERVIÇOS
+			</p>
+			<p id="banner_box_text">
+				EM BOAS MÃOS
+			</p>			
 		</div>	
-	</div>
-	<div class="atuacao">
-		<div class="conteudo" style="padding-top: 90px; width: 760px">
-			<div class="atuacao_text">		
+	</section>
+	<section class="segmento">
+		<div class="container" >
+			<p class="segmento_box" id="segmento_text_1">
+				RESIDENCIAL
+			</p>
+			<p class="segmento_box" id="segmento_text_2">
+				CONDOMINIAL
+			</p>
+			<p class="segmento_box" id="segmento_text_3">
+				COMERCIAL
+			</p>
+		</div>	
+	</section>
+	<a name="atuacao"></a>
+	<section class="atuacao">
+		<div class="container">
+			<p class="atuacao_box" id="atuacao_box_title">
 				NOSSA ATUAÇÃO
-			</div>
-			<div class="atuacao_text_1">
-			POSSUÍMOS EXPERIÊNCIA COMPROVADA NA ÁREA DE AUTOMAÇÃO, </br> 
-			INSTALAÇÃO E MANUTENÇÃO ELÉTRICA, EXECUÇÃO E GERENCIAMENTO </br> 
-			DE PROJETOS QUANTITATIVO DE MATERIAL, SEJA QUAL FOR SUA </br> 
-			NECESSIDADE, RESIDENCIAL, CONDOMINIAL OU  INDUSTRIAL.
-			</div>
+			</p>
+			<p  class="atuacao_box" id="atuacao_box_text">
+				POSSUÍMOS EXPERIÊNCIA COMPROVADA NA ÁREA DE AUTOMAÇÃO, 
+				INSTALAÇÃO E MANUTENÇÃO ELÉTRICA, EXECUÇÃO E GERENCIAMENTO 
+				DE PROJETOS QUANTITATIVO DE MATERIAL, SEJA QUAL FOR SUA
+				NECESSIDADE, RESIDENCIAL, CONDOMINIAL OU  INDUSTRIAL.
+			</p>
+			
 		</div>
-	</div>
-	<div class="servicos">		
-		<div class="conteudo">
-			<div style="padding: 90px 0px 40px;">		
-				<h1 class="servicos_titulo">NOSSOS SERVIÇOS</h1>
-			</div>
-			<div>
-				<div class="servicos_box"><img src="<?php bloginfo('stylesheet_directory');?>/img/icon_energia.png">
-					<p>ECONOMIA<br>DE ENERGIA<br>E ÁGUA</p>
-					<p class="servicos_descricao">ESTUDO DE VIABILIDADE PARA<BR>REDUÇÃO DE CONSUMO DE<BR>ENERGIA E ÁGUA RESIDENCIAL,<BR>CONDOMINIAL E COMERCIAL.</p>
-				</div>
-				<div class="servicos_box"><img src="<?php bloginfo('stylesheet_directory');?>/img/icon_infraestrutura.png">
-					<p>INFRAESTRUTURA<br>PARA<br>AUTOMAÇÃO</p>
-					<ul class="servicos_descricao">
-					<li>INFORMÁTICA</li>
-					<li>TELEFONIA</li>
-					<li>CIRCUITO FECHADO DE TV</li>
-					<li>SISTEMAS DE ALARME</li>
-					</ul>
-				</div>
-				<div class="servicos_box"><img src="<?php bloginfo('stylesheet_directory');?>/img/icon_eletrica.png">
-					<p>INSTALAÇÃO<br>E MANUTENÇÃO<br>ELÉTRICA</p>
-					<p class="servicos_descricao">ANÁLISE DE PROJETOS PARA<BR>VIABILIZAÇÃO DE INFRAESTRUTURA<BR>E INSTALAÇÃO ELÉTRICA RESIDENCIAL,<BR>CONDOMINIAL E INDUSTRIAL.</p>
-				</div>
-			</div>
-			<div>
-				<div class="servicos_box"><img src="<?php bloginfo('stylesheet_directory');?>/img/icon_execucao.png">
-				<p>EXECUÇÃO E<br>GERENCIAMENTO<br>DE OBRAS</p>
-					<ul class="servicos_descricao">
+	</section>
+	<a name="servicos"></a>
+	<section class="servicos">
+		<div class="container">
+			<div class="servicos_box">
+				<h2>NOSSOS SERVIÇOS</h2>
+				<div id="servicos_box_text_1" class="col-xs-12 col-sm-3 servicos_alin">
+					 <h3>ECONOMIA DE ENERGIA E ÁGUA</h3>
+        			 <p class="servicos_descricao">ESTUDO DE VIABILIDADE PARA REDUÇÃO DE CONSUMO DE ENERGIA E ÁGUA RESIDENCIAL, CONDOMINIAL E COMERCIAL.</p>
+				</div> 
+				<div id="servicos_box_text_2" class="col-xs-12 col-sm-3 servicos_alin">
+					 <h3>INFRAESTRUTURA PARA AUTOMAÇÃO</h3>
+        			 <ul class="servicos_descricao">
+						 <li>INFORMÁTICA</li>
+						 <li>TELEFONIA</li>
+						 <li>CIRCUITO FECHADO DE TV</li>
+						 <li>SISTEMAS DE ALARME</li>
+					 </ul>
+				</div> 
+				<div id="servicos_box_text_3" class="col-xs-12 col-sm-3 servicos_alin">
+					 <h3>INSTALAÇÃO E MANUTENÇÃO ELÉTRICA</h3>
+        			 <p class="servicos_descricao">ANÁLISE DE PROJETOS PARA VIABILIZAÇÃO DE INFRAESTRUTURA E INSTALAÇÃO ELÉTRICA RESIDENCIAL, CONDOMINIAL E INDUSTRIAL.</p>
+
+				</div> 
+				<div id="servicos_box_text_4" class="col-xs-12 col-sm-3 servicos_alin">
+					 <h3>EXECUÇÃO E GERENCIAMENTO DE OBRAS</h3>
+        			 <ul class="servicos_descricao">
 						<li>CONTROLE DE CUSTOS</li>
 						<li>GERENCIAMENTO DE MÃO DE OBRA</li>
 						<li>EXECUÇÃO DE PRAZOS</li>
 						<li>APLICAÇÃO DE CRONOGRAMA</li>
 					</ul>
-				</div>
-				<div class="servicos_box"><img src="<?php bloginfo('stylesheet_directory');?>/img/icon_projetos.png">
-					<p>GERENCIAMENTO DE<br>PROJETOS QUANTITATIVOS<br>DE MATERIAL</p>
-					<ul class="servicos_descricao">
-					<li>LEVANTAMENTO DE OBRA</li>
-					<li>VISÃO DO PROJETO</li>
-					<li>ESTUDO DE DESPERDÍCIOS: MATERIAIS E HORAS</li>
-					<li>CUMPRIMENTO DE PRAZOS E INVESTIMENTO DO PROJETO</li>
+
+				</div> 
+				<div id="servicos_box_text_5" class="col-xs-12 col-sm-3 servicos_alin">
+					 <h3>GERENCIAMENTO DE PROJETOS QUANTITATIVOS DE MATERIAL</h3>
+        			 <ul class="servicos_descricao">
+						<li>LEVANTAMENTO DE OBRA</li>
+						<li>VISÃO DO PROJETO</li>
+						<li>ESTUDO DE DESPERDÍCIOS: MATERIAIS E HORAS</li>
+						<li>CUMPRIMENTO DE PRAZOS E INVESTIMENTO DO PROJETO</li>
 					</ul>
-				</div>
-			</div>
-		</div>
-	</div>
+				</div> 
+			</div>	
+		</div> <!-- container -->
+	</section>
 <?php get_footer(); ?>

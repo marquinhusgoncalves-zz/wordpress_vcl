@@ -17,4 +17,63 @@
         wp_enqueue_style( 'bootstrap.min' );
     }
     add_action( 'wp_enqueue_scripts', 'wpt_register_css' );
+
+// Theme setup
+add_action( 'after_setup_theme', 'wpt_setup' );
+    if ( ! function_exists( 'wpt_setup' ) ):
+        function wpt_setup() {  
+            register_nav_menu( 'primary', __( 'Primary navigation', 'wptuts' ) );
+        } endif;
+
+//Change excerpt text
+function custom_excerpt_length( $length ) {
+    return 50;
+    }
+    add_filter( 'excerpt_length', 'custom_excerpt_length', 999 );
+
+function new_excerpt_more( $more ) {
+    return ' ... <br><a class="btn btn-primary" href="'. get_permalink( get_the_ID() ) . '">' . __('Veja mais', ' ') . '</a>';
+    }
+    add_filter( 'excerpt_more', 'new_excerpt_more' );       
+
+// Catch the second image
+function catch_that_image() {
+    global $post, $posts;
+    $first_img = '';
+    ob_start();
+    ob_end_clean();
+    $output = preg_match_all('/<img.+src=[\'"]([^\'"]+)[\'"].*>/i', $post->post_content, $matches);
+    $first_img = $matches[1][0];
+  
+    if(empty($first_img)) {
+      $first_img = "/path/to/default.png";
+    }
+    return $first_img;
+  }
+
+// Logo Admin
+function my_login_logo() { ?>
+    <style type="text/css">
+        .login h1 a {
+            background-image: url(<?php echo get_stylesheet_directory_uri(); ?>/img/logo_vcl.png);
+            padding-bottom: 120px;
+            background-size: 300px auto;
+            width: 320px;
+            height: 60px;
+        }
+    </style>
+<?php }
+add_action( 'login_enqueue_scripts', 'my_login_logo' );
+
+// Link Logo
+function meu_wp_login_url() {
+return get_bloginfo('url');
+}
+add_filter('login_headerurl', 'meu_wp_login_url');
+
+// Logo Title
+function meu_wp_login_title() {
+return get_bloginfo('name');
+}
+add_filter('login_headertitle', 'meu_wp_login_title');
 ?>
