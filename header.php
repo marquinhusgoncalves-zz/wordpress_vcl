@@ -3,14 +3,14 @@
 <head>
 	<title><?php bloginfo('name'); ?> <?php wp_title(); ?></title>
 	<meta charset="utf8">
-	<meta name="viewport" content="width=device-width">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="format-detection" content="telephone=no">
     <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css">
-    <?php wp_head(); ?>
+    
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <!-- Não abrir link no menu -->
     <script type="text/javascript">jQuery(function($) {$("li#obras").children("a").attr('href', "#");});</script>
     <!-- Rolagem ao clicar no menu -->
-    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
 	<script type="text/javascript">
 	$(document).ready(function() {
 	function filterPath(string) {
@@ -36,25 +36,38 @@
 	});
 	});
 	// ]]></script>
+	<?php wp_head(); ?>
 </head>
 
 <body>
 	<header>
-		<div class = "container">
-			<a href = "<?php echo esc_url( home_url( '/' ) ); ?>" title = '<?php bloginfo( 'name' ); ?>' rel="home">
-				<img id="logo" alt="Logo VCL Serviços" src = "<?php bloginfo('stylesheet_directory');?>/img/logo_vcl.png" />
-			</a>
-			<div id="navigation">
-				<ul>
-					<li class="menu"><a href="<?php bloginfo('name'); ?>#atuacao">ATUAÇÃO</a></li>
-					<li class="menu"><a href="<?php bloginfo('name'); ?>#servicos">SERVIÇOS</a></li>
-					<li><a href="#obras">OBRAS</a>
-					<ul>
-						<li><?php wp_list_categories('hide_empty=0&exclude=1&title_li=&depth=2'); ?></li>
-					</ul>
-					</li>
-					<li class="menu"><a href="#contato">CONTATO</a></li>
-				</ul>
+		<nav class = "nav navbar-default" role = "navigation" >
+			<div id = "navigation" class="container">
+				<a href = "<?php echo esc_url( home_url( '/' ) ); ?>" title = '<?php bloginfo( 'name' ); ?>' rel="home">
+					<img id="logo" alt="Logo VCL Serviços" src = "<?php bloginfo('stylesheet_directory');?>/img/logo_vcl.png" />
+				</a>
+			<!-- Brand and toggle get grouped for better mobile display --> 
+			  <div class = "navbar-header"> 
+			    <button type = "button" class = "navbar-toggle" data-toggle = "collapse" data-target = ".navbar-ex-collapse"> 
+			      <span class = "sr-only">Toggle navigation</span> 
+			      <span class = "icon-bar"></span> 
+			      <span class = "icon-bar"></span> 
+			      <span class = "icon-bar"></span> 
+			    </button> 
+			  </div> 
+			  <!-- Collect the nav links, forms, and other content for toggling --> 
+			  <div class = "collapse navbar-collapse navbar-right navbar-ex-collapse">
+			    <?php /* Primary navigation */
+				wp_nav_menu( array(
+				  'menu' => 'top_menu',
+				  'depth' => 2,
+				  'container' => false,
+				  'menu_class' => 'nav navbar-nav',
+				  //Process nav menu using our custom nav walker
+				  'walker' => new wp_bootstrap_navwalker())
+				);
+				?>
+			  </div>
 			</div>
-		</div>
+		</nav>
 	</header>

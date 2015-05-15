@@ -2,9 +2,9 @@
 
 	<section id="banner_top">
 		<div class="container">
-			<p>
+			<p class="col-xs-12">
 				TODOS SERVIÇOS
-			</p>
+			</p class="col-xs-12">
 			<p id="banner_box_text">
 				EM BOAS MÃOS
 			</p>			
@@ -12,30 +12,29 @@
 	</section>
 	<section class="segmento">
 		<div class="container" >
-			<p class="segmento_box" id="segmento_text_1">
+			<p class="col-xs-12 col-sm-offset-2 segmento_box" id="segmento_text_1">
 				RESIDENCIAL
 			</p>
-			<p class="segmento_box" id="segmento_text_2">
+			<p class="col-xs-12 col-sm-offset-2 segmento_box" id="segmento_text_2">
 				CONDOMINIAL
 			</p>
-			<p class="segmento_box" id="segmento_text_3">
+			<p class="col-xs-12 col-sm-offset-2 segmento_box" id="segmento_text_3">
 				COMERCIAL
-			</p>
+			</p>	
 		</div>	
 	</section>
 	<a name="atuacao"></a>
 	<section class="atuacao">
 		<div class="container">
-			<p class="atuacao_box" id="atuacao_box_title">
+			<p class="col-xs-12 col-sm-offset-2 atuacao_box" id="atuacao_box_title">
 				NOSSA ATUAÇÃO
 			</p>
-			<p  class="atuacao_box" id="atuacao_box_text">
+			<p class="col-xs-12 col-sm-offset-2 col-sm-9 atuacao_box" id="atuacao_box_text">
 				POSSUÍMOS EXPERIÊNCIA COMPROVADA NA ÁREA DE AUTOMAÇÃO, 
 				INSTALAÇÃO E MANUTENÇÃO ELÉTRICA, EXECUÇÃO E GERENCIAMENTO 
 				DE PROJETOS QUANTITATIVO DE MATERIAL, SEJA QUAL FOR SUA
 				NECESSIDADE, RESIDENCIAL, CONDOMINIAL OU  INDUSTRIAL.
-			</p>
-			
+			</p>		
 		</div>
 	</section>
 	<a name="servicos"></a>

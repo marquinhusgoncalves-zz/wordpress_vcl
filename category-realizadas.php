@@ -1,10 +1,9 @@
 <?php get_header(); ?>
     <div class="banner_obras_realizadas">    
-        <div class="banner_top_text">
-            <div class="container" style="padding-top: 200px">
-                <p>OBRAS EM REALIZADAS</p>
-            </div>  
-        </div>
+        <div class="container">
+            <p>OBRAS </p>
+            <p id="banner_box_text" >REALIZADAS</p>
+        </div> 
     </div>
     <div class="container" style="margin-bottom: 20px;">
         <?php if(have_posts()) :while (have_posts()) : the_post(); ?>
