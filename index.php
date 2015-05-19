@@ -1,85 +1,82 @@
 <?php get_header(); ?>
 
-	<section id="banner_top">
-		<div class="container">
-			<p class="col-xs-12">
-				TODOS SERVIÇOS
-			</p class="col-xs-12">
-			<p id="banner_box_text">
-				EM BOAS MÃOS
-			</p>			
-		</div>	
-	</section>
-	<section class="segmento">
-		<div class="container" >
-			<p class="col-xs-12 col-sm-offset-2 segmento_box" id="segmento_text_1">
-				RESIDENCIAL
-			</p>
-			<p class="col-xs-12 col-sm-offset-2 segmento_box" id="segmento_text_2">
-				CONDOMINIAL
-			</p>
-			<p class="col-xs-12 col-sm-offset-2 segmento_box" id="segmento_text_3">
-				COMERCIAL
-			</p>	
-		</div>	
-	</section>
-	<a name="atuacao"></a>
-	<section class="atuacao">
-		<div class="container">
-			<p class="col-xs-12 col-sm-offset-2 atuacao_box" id="atuacao_box_title">
-				NOSSA ATUAÇÃO
-			</p>
-			<p class="col-xs-12 col-sm-offset-2 col-sm-9 atuacao_box" id="atuacao_box_text">
-				POSSUÍMOS EXPERIÊNCIA COMPROVADA NA ÁREA DE AUTOMAÇÃO, 
-				INSTALAÇÃO E MANUTENÇÃO ELÉTRICA, EXECUÇÃO E GERENCIAMENTO 
-				DE PROJETOS QUANTITATIVO DE MATERIAL, SEJA QUAL FOR SUA
-				NECESSIDADE, RESIDENCIAL, CONDOMINIAL OU  INDUSTRIAL.
-			</p>		
-		</div>
-	</section>
-	<a name="servicos"></a>
-	<section class="servicos">
-		<div class="container">
-			<div class="servicos_box">
-				<h2>NOSSOS SERVIÇOS</h2>
-				<div id="servicos_box_text_1" class="col-xs-12 col-sm-3 servicos_alin">
-					 <h3>ECONOMIA DE ENERGIA E ÁGUA</h3>
-        			 <p class="servicos_descricao">ESTUDO DE VIABILIDADE PARA REDUÇÃO DE CONSUMO DE ENERGIA E ÁGUA RESIDENCIAL, CONDOMINIAL E COMERCIAL.</p>
-				</div> 
-				<div id="servicos_box_text_2" class="col-xs-12 col-sm-3 servicos_alin">
-					 <h3>INFRAESTRUTURA PARA AUTOMAÇÃO</h3>
-        			 <ul class="servicos_descricao">
-						 <li>INFORMÁTICA</li>
-						 <li>TELEFONIA</li>
-						 <li>CIRCUITO FECHADO DE TV</li>
-						 <li>SISTEMAS DE ALARME</li>
-					 </ul>
-				</div> 
-				<div id="servicos_box_text_3" class="col-xs-12 col-sm-3 servicos_alin">
-					 <h3>INSTALAÇÃO E MANUTENÇÃO ELÉTRICA</h3>
-        			 <p class="servicos_descricao">ANÁLISE DE PROJETOS PARA VIABILIZAÇÃO DE INFRAESTRUTURA E INSTALAÇÃO ELÉTRICA RESIDENCIAL, CONDOMINIAL E INDUSTRIAL.</p>
+<section id="banner_top">
+	<div class="container">
+		<p class="col-xs-12">
+			todos serviços
+		</p>
+		<p id="banner_box_text">
+			em boas mãos
+		</p>			
+	</div>	
+</section>
+<section class="segmento">
+	<div class="container" >
+		<p class="col-xs-12 col-sm-offset-2 segmento_box" id="segmento_text_1">
+			residencial
+		</p>
+		<p class="col-xs-12 col-sm-offset-2 segmento_box" id="segmento_text_2">
+			condominial
+		</p>
+		<p class="col-xs-12 col-sm-offset-2 segmento_box" id="segmento_text_3">
+			comercial
+		</p>	
+	</div>	
+</section>
+<a name="atuacao"></a>
+<section class="atuacao">
+	<div class="container">
+		<p class="col-xs-12 col-sm-offset-2 atuacao_box" id="atuacao_box_title">
+			nossa atuação
+		</p>
+		<p class="col-xs-12 col-sm-offset-2 col-sm-9 atuacao_box" id="atuacao_box_text">
+			possuímos experiência comprovada na área de automação, instalação e manutenção elétrica, execução e gerenciamento de projetos quantitativo de material, seja qual for sua necessidade, residencial, condominial ou industrial.
+		</p>		
+	</div>
+</section>
+<a name="servicos"></a>
+<section class="servicos">
+	<div class="container">
+		<div class="servicos_box">
+			<h2>nossos serviços</h2>
+			<div id="servicos_box_text_1" class="col-xs-12 col-sm-3 servicos_alin">
+				<h3>economia de energia e água</h3>
+				<p class="servicos_descricao">estudo de viabilidade para redução de consumo de energia e água residencial, condominial e comercial.</p>
+			</div> 
+			<div id="servicos_box_text_2" class="col-xs-12 col-sm-3 servicos_alin">
+				<h3>infrasestrutura para automação</h3>
+				<ul class="servicos_descricao">
+					<li>informática</li>
+					<li>telefonica</li>
+					<li>circuito fechado de tv</li>
+					<li>sistemas de alarme</li>
+				</ul>
+			</div> 
+			<div id="servicos_box_text_3" class="col-xs-12 col-sm-3 servicos_alin">
+				<h3>instalação e manutenção elétrica</h3>
+				<p class="servicos_descricao">análise de projetos para viabilização de infraestrutura e instalação elétrica residencial, condominial e industrial.</p>
 
-				</div> 
-				<div id="servicos_box_text_4" class="col-xs-12 col-sm-3 servicos_alin">
-					 <h3>EXECUÇÃO E GERENCIAMENTO DE OBRAS</h3>
-        			 <ul class="servicos_descricao">
-						<li>CONTROLE DE CUSTOS</li>
-						<li>GERENCIAMENTO DE MÃO DE OBRA</li>
-						<li>EXECUÇÃO DE PRAZOS</li>
-						<li>APLICAÇÃO DE CRONOGRAMA</li>
-					</ul>
+			</div> 
+			<div id="servicos_box_text_4" class="col-xs-12 col-sm-3 servicos_alin">
+				<h3>execução e gerenciamento de obras</h3>
+				<ul class="servicos_descricao">
+					<li>controle de custos</li>
+					<li>gerenciamento de mão de obra</li>
+					<li>execução de prazos</li>
+					<li>aplicação de cronograma</li>
+				</ul>
 
-				</div> 
-				<div id="servicos_box_text_5" class="col-xs-12 col-sm-3 servicos_alin">
-					 <h3>GERENCIAMENTO DE PROJETOS QUANTITATIVOS DE MATERIAL</h3>
-        			 <ul class="servicos_descricao">
-						<li>LEVANTAMENTO DE OBRA</li>
-						<li>VISÃO DO PROJETO</li>
-						<li>ESTUDO DE DESPERDÍCIOS: MATERIAIS E HORAS</li>
-						<li>CUMPRIMENTO DE PRAZOS E INVESTIMENTO DO PROJETO</li>
-					</ul>
-				</div> 
-			</div>	
-		</div> <!-- container -->
-	</section>
+			</div> 
+			<div id="servicos_box_text_5" class="col-xs-12 col-sm-3 servicos_alin">
+				<h3>gerenciamento de projetos quantitativos de material</h3>
+				<ul class="servicos_descricao">
+					<li>levantamento de obra</li>
+					<li>visão do projeto</li>
+					<li>estudo de desperdícios: materiais e horas</li>
+					<li>cumprimento de prazos e investimento do projeto</li>
+				</ul>
+			</div> 
+		</div>	
+	</div> <!-- container -->
+</section>
 <?php get_footer(); ?>

@@ -7,554 +7,874 @@ Author URI: http://www.mundosa.com.br
 */
 @import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700|Open+Sans:400,300,800);
 
-body {
-	font-family: 'Open Sans Condensed', sans-serif !important;
-	position: absolute;
-	width: 100%;
-	height: 100%;
-}
-header {
-	width: 100%;
-	height: 140px;
-	z-index: 99;
-	position: fixed;
-}
-footer {
-	min-height: 380px;
-	height: auto;
-	background-color: #000;
-}
-footer p {
-	font-size: 1em;
-	color: #FFF;
-}
-footer a {
-	font-size: 1.4em;
-	color: #FFF !important;
-}
-footer a:hover {
-	color: #fbbb04;
-	text-decoration: none;
-}
-#logo {
-	width: 180px;
-	padding: 20px 0;
-}
-#banner_top {
-	background: url("../vcl_theme/img/banner_top.jpg") no-repeat center center fixed;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-	padding-top: 190px;
-}
-#banner_top p {
-	width: 600px;
-	font-weight: 700;
-	font-size: 10em;
-	line-height: 1em;
-	color: #636363;
-	text-align: right;
-	float: right;
-}
-#banner_box_text {
-	color: #000 !important;
-}
-.segmento {
-	min-height: 800px;
-	height: auto;
-	background-color: #464646;
-}
-.segmento_box {
-	width: 700px;
-	margin: 50px auto;
-	padding: 30px 0;
+body
+{
+    font-family: 'Open Sans Condensed', sans-serif !important;
 
-	font-weight: 700;
-	font-size: 8em;
-	line-height: 1.1em;
-	color: #FFF;
-	text-align: left;
+    position: absolute;
 
+    width: 100%;
+    height: 100%;
 }
-#segmento_text_1 {
-	background: url("../vcl_theme/img/icon_residencial.png") no-repeat left;
-	padding-left: 115px;
-}
-#segmento_text_2 {
-	background: url("../vcl_theme/img/icon_condominial.png") no-repeat left;
-	padding-left: 115px;
-}
-#segmento_text_3 {
-	background: url("../vcl_theme/img/icon_comercial.png") no-repeat left;
-	padding-left: 115px;
-}
-.atuacao {
-	min-height: 800px;
-	height: auto;
-	background-color: #FFF;
-}
-.atuacao_box {
-	width: 700px;
-	margin-top: 130px;
-}
-#atuacao_box_title {
-	font-size: 8em;
-	color: #fbbb04;
-}
-#atuacao_box_text {
-	font-weight: 700;
-	font-size: 2em;
-	line-height: 1.9em;
-	color: #636363;
-}
-.servicos {
-	min-height: 1000px;
-	height: auto;
-	background: url("../vcl_theme/img/bg_servicos.jpg") no-repeat center;
-}
-.servicos h2 {
-	font-size: 6em;
-	color: #fbbb04;
-}
-.servicos_box {
-	width: 660px;
-	margin: 160px auto;
+header
+{
+    position: fixed;
+    z-index: 99;
 
+    width: 100%;
+    height: 130px;
 }
-.servicos_box h3 {
-	font-size: 1em;
-	font-weight: 700;
-	color: #fbbb04;
-	margin: 90px 0 10px 0;
-	width: 90px;
+footer
+{
+    height: auto;
+    min-height: 380px;
+
+    background-color: #000;
 }
-.servicos_box p, .servicos_box ul {
-	font-size: 1em;
-	font-weight: 300;
-	color: #FFF;
-	width: 150px;
+footer p
+{
+    font-size: 1em;
+
+    color: #fff;
 }
-.servicos_box li  {
-	margin-left: -23px;
+footer a
+{
+    font-size: 1.4em;
+
+    color: #fff !important;
 }
-.servicos_alin {
-	display: inline-block;
-	margin: 25px 55px 35px 0;
+footer a:hover
+{
+    text-decoration: none;
+
+    color: #fbbb04;
 }
-#servicos_box_text_1 {
-	background: url("../vcl_theme//img/icon_energia.png") no-repeat top left;
+#logo
+{
+    width: 180px;
+    padding: 20px 0;
 }
-#servicos_box_text_2 {
-	background: url("../vcl_theme//img/icon_infraestrutura.png") no-repeat top left;
+#banner_top
+{
+    padding-top: 190px;
+
+    background: url('../vcl_theme/img/banner_top.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+       -moz-background-size: cover;
+         -o-background-size: cover;
+            background-size: cover;
 }
-#servicos_box_text_3 {
-	background: url("../vcl_theme//img/icon_eletrica.png") no-repeat top left;
+#banner_top p
+{
+    font-size: 10em;
+    font-weight: 700;
+    line-height: 1em;
+
+    float: right;
+
+    width: 600px;
+
+    text-align: right;
+    text-transform: uppercase;
+
+    color: #636363;
 }
-#servicos_box_text_3 p {	
-	width: 180px;
+#banner_box_text
+{
+    color: #000 !important;
 }
-#servicos_box_text_4 {
-	background: url("../vcl_theme//img/icon_execucao.png") no-repeat top left;
+.segmento
+{
+    height: auto;
+    min-height: 800px;
+
+    background-color: #464646;
 }
-#servicos_box_text_4 ul {	
-	width: 200px;
+.segmento p
+{
+    text-transform: uppercase;
 }
-#servicos_box_text_5 {
-	background: url("../vcl_theme//img/icon_projetos.png") no-repeat top left;
+.segmento_box
+{
+    font-size: 8em;
+    font-weight: 700;
+    line-height: 1.1em;
+
+    width: 700px;
+    margin: 50px auto;
+    padding: 30px 0;
+
+    text-align: left;
+
+    color: #fff;
 }
-#servicos_box_text_5 ul {	
-	width: 290px;
+#segmento_text_1
+{
+    padding-left: 115px;
+
+    background: url('../vcl_theme/img/icon_residencial.png') no-repeat left;
 }
-#servicos_box_text_5 h3 {	
-	width: 150px;
+#segmento_text_2
+{
+    padding-left: 115px;
+
+    background: url('../vcl_theme/img/icon_condominial.png') no-repeat left;
 }
-.footer_box {
-	margin: 70px auto;
-	width: 600px;
+#segmento_text_3
+{
+    padding-left: 115px;
+
+    background: url('../vcl_theme/img/icon_comercial.png') no-repeat left;
 }
-.footer_box p {
-	width: 200px;
+.atuacao
+{
+    height: auto;
+    min-height: 800px;
+
+    background-color: #fff;
 }
-#footer_logo {
-	width: 100px;
-	padding-bottom: 10px;
+.atuacao_box
+{
+    width: 700px;
+    margin-top: 130px;
 }
-#footer_box_left {
-	display: inline-block;
-	margin: 0px 130px 0 0;
+.atuacao p
+{
+    text-transform: uppercase;
 }
-#footer_box_right {
-	display: inline-block;	
+#atuacao_box_title
+{
+    font-size: 8em;
+
+    color: #fbbb04;
 }
-#footer_tel {
-	font-size: 2em;
-	font-weight: 700;
-	color: #fbbb04;
-	margin-bottom: -10px;
+#atuacao_box_text
+{
+    font-size: 2em;
+    font-weight: 700;
+    line-height: 1.9em;
+
+    color: #636363;
 }
-.banner_obras_andamento {
-	height: 520px;
-	background: url("../vcl_theme/img/bg_obras.jpg") center;
-	padding-top: 200px
+.servicos
+{
+    height: auto;
+    min-height: 1000px;
+
+    background: url('../vcl_theme/img/bg_servicos.jpg') no-repeat center;
 }
-.banner_obras_andamento p {
-	width: 700px;
-	font-weight: 700;
-	font-size: 10em;
-	line-height: 1em;
-	color: #636363;
-	text-align: right;
-	float: right;
+.servicos h2
+{
+    font-size: 6em;
+
+    margin-bottom: 50px;
+
+    color: #fbbb04;
 }
-.banner_obras_realizadas {
-	height: 520px;
-	background: url("../vcl_theme/img/bg_obras.jpg") center;
-	padding-top: 200px
+.servicos_box
+{
+    width: 660px;
+    margin: 160px auto;
+
+    text-transform: uppercase;
 }
-.banner_obras_realizadas p {
-	width: 650px;
-	font-weight: 700;
-	font-size: 10em;
-	line-height: 1em;
-	color: #636363;
-	text-align: right;
-	float: right;
+.servicos_box h3
+{
+    font-size: 1em;
+    font-weight: 700;
+
+    width: 90px;
+    margin: 90px 0 10px 0;
+
+    color: #fbbb04;
 }
-.post {
-	background-color: #464646;
-	width: 970px;
-	height: 228px;
-	margin: 20px auto;
+.servicos_box p,
+.servicos_box ul
+{
+    font-size: 1em;
+    font-weight: 300;
+
+    width: 150px;
+
+    color: #fff;
 }
-.post-title {
-	padding: 15px;
+.servicos_box li
+{
+    margin-left: -23px;
 }
-.post-title a {
-	color: #fbbb04;
-	text-decoration: none;
+.servicos_alin
+{
+    display: inline-block;
+
+    margin: 25px 55px 35px 0;
 }
-.post-title a:focus, a:hover {
-	color: #fbbb04 !important;
-	text-decoration: none !important;
+#servicos_box_text_1
+{
+    background: url('../vcl_theme//img/icon_energia.png') no-repeat top left;
 }
-.post-text {
-	color: #FFF;
-	padding-right: 15px;
+#servicos_box_text_2
+{
+    background: url('../vcl_theme//img/icon_infraestrutura.png') no-repeat top left;
 }
-.post-text .btn-primary {
-	color: #464646;
-	background-color: #fbbb04;
-	border-color: #fbbb04;
+#servicos_box_text_3
+{
+    background: url('../vcl_theme//img/icon_eletrica.png') no-repeat top left;
 }
-.post-text .btn {
-	padding: 5px 25px !important;
-	border: 0px none !important;
-	border-radius: 0px !important;
-	margin: 30px 0;
-	font-size: 1.3em;
-	font-weight: 700 !important;
+#servicos_box_text_3 p
+{
+    width: 180px;
 }
-.btn:hover {
-	color: #FFF !important;
-	background-color: #fbbb04 !important;
-	border-color: #fbbb04 !important;
+#servicos_box_text_4
+{
+    background: url('../vcl_theme//img/icon_execucao.png') no-repeat top left;
 }
-.post-content {
-	width: 920px;
+#servicos_box_text_4 ul
+{
+    width: 200px;
 }
-.thumb {
-	background-color: #fbbb04;
-	width: 228px;
-	height: 228px;
-	float: left;
-	margin: 0px 40px 0px 0px;
+#servicos_box_text_5
+{
+    background: url('../vcl_theme//img/icon_projetos.png') no-repeat top left;
 }
-.arrow_left {
-	position: absolute;
-	width: 229px;
-	height: 70px;
-	border-top: 40px solid transparent;
-	border-bottom: 40px solid transparent;
-	border-right: 40px solid #464646;
-	margin-top: 70px;
+#servicos_box_text_5 ul
+{
+    width: 290px;
 }
-#single_box {
-	padding: 160px 15px 15px 7px;
+#servicos_box_text_5 h3
+{
+    width: 150px;
 }
-#single_box p {
-	font-size: 20px !important;
+.footer_box
+{
+    width: 600px;
+    margin: 70px auto;
+}
+.footer_box p
+{
+    width: 200px;
+
+    text-transform: uppercase;
+}
+#footer_logo
+{
+    width: 100px;
+    padding-bottom: 10px;
+}
+#footer_box_left
+{
+    display: inline-block;
+
+    margin: 0 130px 0 0;
+}
+#footer_box_right
+{
+    display: inline-block;
+}
+#footer_tel
+{
+    font-size: 2em;
+    font-weight: 700;
+
+    margin-bottom: -10px;
+
+    color: #fbbb04;
+}
+.banner_obras_andamento
+{
+    height: 520px;
+    padding-top: 200px;
+
+    background: url('../vcl_theme/img/bg_obras.jpg') center;
+}
+.banner_obras_andamento p
+{
+    font-size: 10em;
+    font-weight: 700;
+    line-height: 1em;
+
+    float: right;
+
+    width: 700px;
+
+    text-align: right;
+    text-transform: uppercase;
+
+    color: #636363;
+}
+.banner_obras_realizadas
+{
+    height: 520px;
+    padding-top: 200px;
+
+    background: url('../vcl_theme/img/bg_obras.jpg') center;
+}
+.banner_obras_realizadas p
+{
+    font-size: 10em;
+    font-weight: 700;
+    line-height: 1em;
+
+    float: right;
+
+    width: 650px;
+
+    text-align: right;
+    text-transform: uppercase;
+
+    color: #636363;
+}
+.post
+{
+    width: 970px;
+    height: 228px;
+    margin: 20px auto;
+
+    background-color: #464646;
+}
+.post-title
+{
+    padding: 15px;
+}
+.post-title a
+{
+    text-decoration: none;
+
+    color: #fbbb04;
+}
+.post-title a:focus,
+a:hover
+{
+    text-decoration: none !important;
+
+    color: #fbbb04 !important;
+}
+.post-text
+{
+    padding-right: 15px;
+
+    color: #fff;
+}
+.post-text .btn-primary
+{
+    color: #464646;
+    border-color: #fbbb04;
+    background-color: #fbbb04;
+}
+.post-text .btn
+{
+    font-size: 1.3em;
+    font-weight: 700 !important;
+
+    margin: 30px 0;
+    padding: 5px 25px !important;
+
+    border: 0 none !important;
+    border-radius: 0 !important;
+}
+.btn:hover
+{
+    color: #fff !important;
+    border-color: #fbbb04 !important;
+    background-color: #fbbb04 !important;
+}
+.post-content
+{
+    width: 920px;
+}
+.thumb
+{
+    float: left;
+
+    width: 228px;
+    height: 228px;
+    margin: 0 40px 0 0;
+
+    background-color: #fbbb04;
+}
+.arrow_left
+{
+    position: absolute;
+
+    width: 229px;
+    height: 70px;
+    margin-top: 70px;
+
+    border-top: 40px solid transparent;
+    border-right: 40px solid #464646;
+    border-bottom: 40px solid transparent;
+}
+#single_box
+{
+    padding: 160px 15px 15px 7px;
+}
+#single_box p
+{
+    font-size: 20px !important;
 }
 /*Formulário*/
-.form-control {
-	color: #FFF !important;
-	border-radius: 0px !important;
-	background-color: #FFF;
-	border: 0 !important;
-	box-shadow: 0 !important;
-	background-color: #636363 !important;
+.form-control
+{
+    color: #fff !important;
+    border: 0 !important;
+    border-radius: 0 !important;
+    background-color: #fff;
+    background-color: #636363 !important;
+    box-shadow: 0 !important;
 }
-.input-lg {
-	height: 30px !important;
-	padding: 5px 5px !important;
-	font-size: 13px !important;
+.input-lg
+{
+    font-size: 13px !important;
+
+    height: 30px !important;
+    padding: 5px 5px !important;
 }
-.form-group {
-	margin-bottom: 5px !important;
-	width: 270px !important;
+.form-group
+{
+    width: 270px !important;
+    margin-bottom: 5px !important;
 }
-.btn {
-	padding: 3px 38px !important;
-	border: 0 !important;
-	border-radius: 0 !important;
-	margin-top: 12px;
-	margin-left: 166px;
+.btn
+{
+    margin-top: 12px;
+    margin-left: 166px;
+    padding: 3px 38px !important;
+
+    border: 0 !important;
+    border-radius: 0 !important;
 }
-.btn-danger {
-	background-color: #fbbb04 !important;
-	border-color: #fbbb04 !important;
+.btn-danger
+{
+    border-color: #fbbb04 !important;
+    background-color: #fbbb04 !important;
 }
-.alert {
-	border: 0 !important;
-	border-radius: 0 !important;
+.alert
+{
+    border: 0 !important;
+    border-radius: 0 !important;
 }
-.alert-success {
-	color: #FFF !important;
-	background-color: #636363 !important;
-	border-color: #636363 !important;
+.alert-success
+{
+    color: #fff !important;
+    border-color: #636363 !important;
+    background-color: #636363 !important;
 }
-.alert-success .alert-link {
-	color: #FFF !important;
-	font-size: 1em !important;
+.alert-success .alert-link
+{
+    font-size: 1em !important;
+
+    color: #fff !important;
 }
 /*Menu*/
-.navbar-default {
-	border-color: transparent;
-	background-color: #FFF !important;
-	opacity: 0.8 !important;
+.navbar-default
+{
+    opacity: .8 !important;
+    border-color: transparent;
+    background-color: #fff !important;
 }
-.navbar-nav {
-	margin-top: 50px !important;
-	float: right !important;
-	z-index: 100 !important;
+.navbar-nav
+{
+    z-index: 100 !important;
+
+    float: right !important;
+
+    margin-top: 50px !important;
 }
-.navbar-nav>.active>a {
-	background-color: transparent !important;
+.navbar-nav > .active > a
+{
+    background-color: transparent !important;
 }
-.navbar-nav>.active>a:hover {
-	background-color: #000 !important;
+.navbar-nav > .active > a:hover
+{
+    background-color: #000 !important;
 }
-.dropdown-menu {
-	border: none !important;
-	border-radius: none !important;
-	box-shadow: none !important;
+.dropdown-menu
+{
+    border: none !important;
+    border-radius: none !important;
+    box-shadow: none !important;
 }
-.navbar-toggle {
-	position: relative !important;
-	float: right !important;
-	padding: 10px 10px !important;
-	background-image: none !important;
-	border-radius: 1px !important;
-	margin-top: -80px !important;
-	margin-right: 15px !important;
-	margin-bottom: 0px !important;
+.navbar-toggle
+{
+    position: relative !important;
+
+    float: right !important;
+
+    margin-top: -80px !important;
+    margin-right: 15px !important;
+    margin-bottom: 0 !important;
+    padding: 10px 10px !important;
+
+    border-radius: 1px !important;
+    background-image: none !important;
 }
-.navbar-collapse {
-	border-top: 0px none !important;
+.navbar-collapse
+{
+    border-top: 0 none !important;
 }
-#navigation ul {
-	list-style:none;
-	padding:1px 0;
+#navigation ul
+{
+    padding: 1px 0;
+
+    list-style: none;
 }
-/* ===== First Level ===== */				
-#navigation ul li {
-	position:relative;
-	padding:0;
-	margin:0;
-	border-right:0;
-	background: transparent;
+/* ===== First Level ===== */
+#navigation ul li
+{
+    position: relative;
+
+    margin: 0;
+    padding: 0;
+
+    border-right: 0;
+    background: transparent;
 }
-#navigation ul ul li {
-	border:none;
-	background: #000;
+#navigation ul ul li
+{
+    border: none;
+    background: #000;
 }
-#navigation ul li a {
-	display:block;
-	text-decoration:none;
-	font-size:26px;
-	color:#636363;
-	padding:0 15px;
-	line-height:43px;
+#navigation ul li a
+{
+    font-size: 26px;
+    line-height: 43px;
+
+    display: block;
+
+    padding: 0 15px;
+
+    text-decoration: none;
+
+    color: #636363;
 }
-#navigation ul li:hover a {
-	position:relative;
-	background:#000;
-	color:#fff;
+#navigation ul li:hover a
+{
+    position: relative;
+
+    color: #fff;
+    background: #000;
 }
-#navigation ul ul,	#navigation ul li:hover ul ul {
-	position:absolute;
-	display:none;
+#navigation ul ul,
+#navigation ul li:hover ul ul
+{
+    position: absolute;
+
+    display: none;
 }
-#navigation ul ul li:hover ul,		#navigation ul li:hover ul li:hover ul {
-	display:block;
-	top:0px;
-	left: 100%;
+#navigation ul ul li:hover ul,
+#navigation ul li:hover ul li:hover ul
+{
+    top: 0;
+    left: 100%;
+
+    display: block;
 }
 /* ===== Second and Third Level ===== */
-#navigation ul li:hover ul {
-	display:block;
-	position:absolute;
-	left:0;
-	top:100%;
-	width:auto;
-	height:auto;
-	padding:0;
+#navigation ul li:hover ul
+{
+    position: absolute;
+    top: 100%;
+    left: 0;
+
+    display: block;
+
+    width: auto;
+    height: auto;
+    padding: 0;
 }
-#navigation ul ul {
-	background:#777;
+#navigation ul ul
+{
+    background: #777;
 }
-#navigation ul ul li a {
-	float:none;
-	line-height:normal;
-	font-variant:normal;
-	font-weight:normal;
-	color:#fff;
-	text-transform:none;
-	padding:3px 29px;
-	background:none !important;
+#navigation ul ul li a
+{
+    font-weight: normal;
+    font-variant: normal;
+    line-height: normal;
+
+    float: none;
+
+    padding: 3px 29px;
+
+    text-transform: none;
+
+    color: #fff;
+    background: none !important;
 }
-#navigation ul ul li:hover>a {
-	background: #fbbb04 !important;
-	color:#FFF !important;
+#navigation ul ul li:hover > a
+{
+    color: #fff !important;
+    background: #fbbb04 !important;
 }
 /*medias*/
-@media screen and (max-width:480px) {
-	#atuacao_box_title {
-		font-size: 6em;
-	}
-	#atuacao_box_text {
-		font-size: 1.5em;
-	}
-	.atuacao_box {
-		width: 300px !important;
-		margin: 40px 0 20px 0;
-	}
-	.segmento_box {
-		font-size: 2.8em !important;
-	}
-	#banner_top p {
-		width: 340px !important;
-		font-size: 4em !important;
-		padding-right: 0;
-	}
-	.banner_obras_andamento {
-		height: 290px !important;
-	}
-	.banner_obras_andamento p {
-		font-size: 4em !important;
-	}
-	.banner_obras_realizadas {
-		height: 290px !important;
-	}
-	.banner_obras_realizadas p {
-		font-size: 4em !important;
-	}
-	.post {
-		width: 350px !important;
-	}
-	.thumb {
-		width: 350px;
-		display: none;
-	}
-	.post-text {
-		padding-left: 18px;
-	}
-	.arrow_left {
-		display: none;
-	}
-	.segmento {
-		min-height: 660px;
-	}
-	.post-content {
-	  width: 350px !important
-	}
+@media screen and (max-width:480px){
+    #atuacao_box_title
+    {
+        font-size: 6em;
+    }
+    #atuacao_box_text
+    {
+        font-size: 1.5em;
+    }
+    .atuacao_box
+    {
+        width: 300px !important;
+        margin: 40px 0 20px 0;
+    }
+    .segmento_box
+    {
+        font-size: 2.8em !important;
+    }
+    #banner_top p
+    {
+        font-size: 4em !important;
+
+        width: 340px !important;
+        padding-right: 0;
+    }
+    .banner_obras_andamento
+    {
+        height: 290px !important;
+    }
+    .banner_obras_andamento p
+    {
+        font-size: 4em !important;
+    }
+    .banner_obras_realizadas
+    {
+        height: 290px !important;
+    }
+    .banner_obras_realizadas p
+    {
+        font-size: 4em !important;
+    }
+    .post
+    {
+        width: 350px !important;
+    }
+    .thumb
+    {
+        display: none;
+
+        width: 350px;
+    }
+    .post-text
+    {
+        padding-left: 18px;
+    }
+    .arrow_left
+    {
+        display: none;
+    }
+    .segmento
+    {
+        min-height: 660px;
+    }
+    .post-content
+    {
+        width: 350px !important;
+    }
+    #servicos_box_text_1 h3
+    {
+        font-size: 2em;
+
+        width: 208px;
+        margin: 90px 0 10px 10px;
+
+        text-align: center;
+    }
+    #servicos_box_text_1 p,
+    #servicos_box_text_1 ul
+    {
+        font-size: 1.5em;
+
+        width: 220px;
+        margin-left: 6px;
+
+        text-align: center;
+    }
+    #servicos_box_text_2 h3
+    {
+        font-size: 2em;
+
+        width: 210px;
+        margin: 90px 0 10px 10px;
+
+        text-align: center;
+    }
+    #servicos_box_text_2 p,
+    #servicos_box_text_2 ul
+    {
+        font-size: 1.5em;
+
+        width: 220px;
+        margin-left: 15px;
+
+        text-align: center;
+    }
+    #servicos_box_text_3 h3
+    {
+        font-size: 2em;
+
+        width: 270px;
+        margin: 90px 0 10px -22px;
+
+        text-align: center;
+    }
+    #servicos_box_text_3 p,
+    #servicos_box_text_3 ul
+    {
+        font-size: 1.5em;
+
+        width: 250px;
+        margin-left: -10px;
+
+        text-align: center;
+    }
+    #servicos_box_text_4 h3
+    {
+        font-size: 2em;
+
+        width: 300px;
+        margin: 90px 0 10px -45px;
+
+        text-align: center;
+    }
+    #servicos_box_text_4 p,
+    #servicos_box_text_4 ul
+    {
+        font-size: 1.5em;
+
+        width: 270px;
+        margin-left: -28px;
+
+        text-align: center;
+    }
+    #servicos_box_text_5 h3
+    {
+        font-size: 2em;
+
+        width: 340px;
+        margin: 90px 0 10px -55px;
+
+        text-align: center;
+    }
+    #servicos_box_text_5 p,
+    #servicos_box_text_5 ul
+    {
+        font-size: 1.5em;
+
+        width: 410px;
+        margin-left: -90px;
+
+        text-align: center;
+    }
 }
-@media screen and (max-width:768px) { 
-	.menu { 
-		display: none;
-	}
-	.footer_box {
-		width: 300px;
-	}
-	#footer_box_right {
-		margin: 10px 15px;
-	}
-	.servicos {
-		background: #464646;
-	}
-	.servicos_box {
-		width: 260px;
-		margin: 50px auto;
-	}
-	#servicos_box_text_1 {
-		background-position: center top;
-	}
-	#servicos_box_text_2 {
-		background-position: center top;
-	}
-	#servicos_box_text_3 {
-		background-position: center top;
-	}
-	#servicos_box_text_4 {
-		background-position: center top;
-	}
-	#servicos_box_text_5 {
-		background-position: center top;
-	}
-	#banner_top p {
-		width: 370px;
-		font-size: 6em;
-	}
-	.banner_obras_andamento {
-		background: #FFF;
-		height: 340px;
-		padding-top: 140px;
-	}
-	.banner_obras_andamento p {
-		width: 430px;
-		font-size: 6em;
-	}
-	.banner_obras_realizadas {
-		background: #FFF;
-		height: 340px;
-		padding-top: 140px;
-	}
-	.banner_obras_realizadas p {
-		width: 430px;
-		font-size: 6em;
-	}
-	.navbar-nav {
-		margin-top: 0px !important;
-		float: none !important;
-		text-align: center !important;
-	}
-	#navigation ul li:hover ul {
-		position: relative;
-		width: 100%;
-		text-align: center;
-	}
-	.post {
-		width: 600px;
-	}
-	.post-content {
-  		width: 590px;
-	}
-	.post-text .btn {
-		margin: 10px 0;
-	}
+@media screen and (max-width:768px){
+    .menu
+    {
+        display: none;
+    }
+    .footer_box
+    {
+        width: 300px;
+    }
+    #footer_box_right
+    {
+        margin: 10px 15px;
+    }
+    .servicos
+    {
+        background: #464646;
+    }
+    .servicos_box
+    {
+        width: 260px;
+        margin: 50px auto;
+    }
+    #servicos_box_text_1
+    {
+        background-position: center top;
+    }
+    #servicos_box_text_2
+    {
+        background-position: center top;
+    }
+    #servicos_box_text_3
+    {
+        background-position: center top;
+    }
+    #servicos_box_text_4
+    {
+        background-position: center top;
+    }
+    #servicos_box_text_5
+    {
+        background-position: center top;
+    }
+    #banner_top p
+    {
+        font-size: 6em;
+
+        width: 370px;
+    }
+    .banner_obras_andamento
+    {
+        height: 340px;
+        padding-top: 140px;
+
+        background: #fff;
+    }
+    .banner_obras_andamento p
+    {
+        font-size: 6em;
+
+        width: 430px;
+    }
+    .banner_obras_realizadas
+    {
+        height: 340px;
+        padding-top: 140px;
+
+        background: #fff;
+    }
+    .banner_obras_realizadas p
+    {
+        font-size: 6em;
+
+        width: 430px;
+    }
+    .navbar-nav
+    {
+        float: none !important;
+
+        margin-top: 0 !important;
+
+        text-align: center !important;
+    }
+    #navigation ul li:hover ul
+    {
+        position: relative;
+
+        width: 100%;
+
+        text-align: center;
+    }
+    .post
+    {
+        width: 600px;
+    }
+    .post-content
+    {
+        width: 590px;
+    }
+    .post-text .btn
+    {
+        margin: 10px 0;
+    }
 }
-@media screen and (max-width:992px) {
-	.segmento_box {
-		font-size: 5em;
-	}
+@media screen and (max-width:992px){
+    .segmento_box
+    {
+        font-size: 5em;
+    }
 }

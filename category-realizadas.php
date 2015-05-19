@@ -1,8 +1,8 @@
 <?php get_header(); ?>
 <div class="banner_obras_realizadas">    
 	<div class="container">
-		<p>OBRAS </p>
-		<p id="banner_box_text" >REALIZADAS</p>
+		<p>obras </p>
+		<p id="banner_box_text">realizadas</p>
 	</div> 
 </div>
 <div>
