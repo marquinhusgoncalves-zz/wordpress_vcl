@@ -1,9 +1,10 @@
 /* 
 Theme Name: vcl_theme 
 Theme URI: http://www.vcl.com.br 
-Version: 1.0 
-Author: Mundo S A 
-Author URI: http://www.mundosa.com.br 
+Author: Marquinhus Goncalves
+Author URI: www.marquinhusgoncalves.com.br
+Description: Personalizado
+Version: 1.0
 */
 @import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700|Open+Sans:400,300,800);
 
@@ -331,36 +332,52 @@ footer a:hover
 
     background-color: #464646;
 }
-.post-title
+.post_title
 {
     padding: 15px;
 }
-.post-title a
+.post_title a
 {
     text-decoration: none;
 
     color: #fbbb04;
 }
-.post-title a:focus,
+.post_title a:focus,
 a:hover
 {
     text-decoration: none !important;
 
     color: #fbbb04 !important;
 }
-.post-text
+.post_title_single{
+    padding: 15px 0;
+}
+.post_title_single a
+{
+    text-decoration: none;
+
+    color: #fbbb04;
+}
+.post_title_single a:focus,
+a:hover
+{
+    text-decoration: none !important;
+
+    color: #fbbb04 !important;
+}
+.post_text
 {
     padding-right: 15px;
 
     color: #fff;
 }
-.post-text .btn-primary
+.post_text .btn-primary
 {
     color: #464646;
     border-color: #fbbb04;
     background-color: #fbbb04;
 }
-.post-text .btn
+.post_text .btn
 {
     font-size: 1.3em;
     font-weight: 700 !important;
@@ -377,7 +394,7 @@ a:hover
     border-color: #fbbb04 !important;
     background-color: #fbbb04 !important;
 }
-.post-content
+.post_content
 {
     width: 920px;
 }
@@ -445,7 +462,11 @@ a:hover
 .btn-danger
 {
     border-color: #fbbb04 !important;
-    background-color: #fbbb04 !important;
+    background-image: linear-gradient(to bottom, #F4DC04, #fbbb04 40%) !important;
+}
+.btn-danger:hover 
+{
+    color: #000 !important;
 }
 .alert
 {
@@ -657,7 +678,7 @@ a:hover
 
         width: 350px;
     }
-    .post-text
+    .post_text
     {
         padding-left: 18px;
     }
@@ -669,7 +690,7 @@ a:hover
     {
         min-height: 660px;
     }
-    .post-content
+    .post_content
     {
         width: 350px !important;
     }
@@ -863,11 +884,11 @@ a:hover
     {
         width: 600px;
     }
-    .post-content
+    .post_content
     {
         width: 590px;
     }
-    .post-text .btn
+    .post_text .btn
     {
         margin: 10px 0;
     }

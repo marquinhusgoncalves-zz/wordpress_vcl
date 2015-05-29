@@ -11,9 +11,9 @@
         <div class="post">
             <div class="arrow_left"></div>
             <div class="thumb" style="background: url(<?php echo catch_that_image() ?>) no-repeat center center; background-size: cover"></div>
-            <div class="post-content">
-                <h2 class="post-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
-                <div class="post-text">
+            <div class="post_content">
+                <h2 class="post_title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
+                <div class="post_text">
                     <?php the_excerpt(); ?>
                 </div>   
             </div>

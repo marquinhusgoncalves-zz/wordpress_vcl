@@ -1,12 +1,16 @@
 <!DOCTYPE html>
-<html>
+<html <?php language_attributes(); ?>>
 <head>
-	<title><?php bloginfo('name'); ?> <?php wp_title(); ?></title>
-	<meta charset="utf8">
+	<title><?php bloginfo('name'); ?><?php wp_title(); ?></title>
+	<meta name="author" content=“Marquinhus Goncalves“>
+	<meta name="description" content=“VCL Servicos em obras”>
+	<meta name="keywords" content=“servicos, obras, area de automacao, instalacao e manutencao eletrica, execucao e gerenciamento de projetos quantitativo de material“>
+	<meta name="robots" content="index, follow">
+	<meta charset="<?php bloginfo('charset'); ?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="format-detection" content="telephone=no">
 	<link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css">
-	
+	<link rel="icon" href="<?php bloginfo('stylesheet_directory');?>/img/favicon.ico">
 	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 	<!-- Não abrir link no menu -->
 	<script type="text/javascript">jQuery(function($) {$("li#obras").children("a").attr('href', "#");});</script>
