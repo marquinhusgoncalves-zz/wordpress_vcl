@@ -1,6 +1,6 @@
-  <?php
+<?php
 /*
-Template Name: Footer
+Template Name: Contato
 */
 
 $ph_name = "NOME";
@@ -53,7 +53,7 @@ if($_POST[sent]){
               <?php echo $post_response->message ?>
             </div>
           <?php endif ?>
-          <form action="<?php the_permalink(); ?>" method="post">
+          <form action="<?php the_permalink(); ?>" id="contact_me" method="post">
             <input type="hidden" name="sent" id="sent" value="1" />
             <div class = "form-group">
               <div id = "input-field"><input class = "form-control input-lg" type = "text" name = "your_name" id = "your_name" value = "<?php echo $_POST[your_name];?>" placeholder = "<?php echo $ph_name; ?>" /></div>

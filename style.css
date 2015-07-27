@@ -54,7 +54,9 @@ footer a:hover
 {
     width: 180px;
     padding: 20px 0;
+    float: left;
 }
+
 #banner_top
 {
     padding-top: 190px;
@@ -154,7 +156,7 @@ footer a:hover
     font-size: 2em;
     font-weight: 700;
     line-height: 1.9em;
-
+    padding-bottom: 100px;
     color: #636363;
 }
 .servicos
@@ -517,14 +519,11 @@ a:hover
 .navbar-toggle
 {
     position: relative !important;
-
     float: right !important;
-
-    margin-top: -80px !important;
+    margin-top: 26px !important;
     margin-right: 15px !important;
     margin-bottom: 0 !important;
     padding: 10px 10px !important;
-
     border-radius: 1px !important;
     background-image: none !important;
 }
@@ -635,6 +634,7 @@ a:hover
     #atuacao_box_text
     {
         font-size: 1.5em;
+        padding-bottom: 50px;
     }
     .atuacao_box
     {

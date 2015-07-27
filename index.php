@@ -30,7 +30,9 @@
 			nossa atuação
 		</p>
 		<p class="col-xs-12 col-sm-offset-2 col-sm-9 atuacao_box" id="atuacao_box_text">
-			possuímos experiência comprovada na área de automação, instalação e manutenção elétrica, execução e gerenciamento de projetos quantitativo de material, seja qual for sua necessidade, residencial, condominial ou industrial.
+			a VCL serviços iniciou suas atividades em São Bernardo do Campo. Hoje, após inúmeras obras e reformas concluídas, atendemos também o interior de São Paulo. <br> 
+			Nosso foco está na execução de projetos que visam sempre: Qualidade, Prazo de Entrega e Economia de Materiais.<br>
+			Possuímos experiência comprovada em todas as áreas, seja qual for sua necessidade, residencial, comercial, condominial ou industrial.
 		</p>		
 	</div>
 </section>
