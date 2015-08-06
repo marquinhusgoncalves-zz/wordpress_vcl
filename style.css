@@ -449,7 +449,7 @@ a:hover
 }
 .form-group
 {
-    width: 270px !important;
+    /*width: 270px !important;*/
     margin-bottom: 5px !important;
 }
 .btn
@@ -555,7 +555,7 @@ a:hover
 }
 #navigation ul li a
 {
-    font-size: 26px;
+    font-size: 22px;
     line-height: 43px;
 
     display: block;
@@ -625,6 +625,17 @@ a:hover
     color: #fff !important;
     background: #fbbb04 !important;
 }
+
+/*CADASTRE-SE*/
+
+#juridica {
+    display: none;
+}
+
+.title_cadastre p {
+    font-size: 18px !important;
+}
+
 /*medias*/
 @media screen and (max-width:480px){
     #atuacao_box_title
