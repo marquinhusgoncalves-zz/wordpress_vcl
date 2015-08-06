@@ -189,25 +189,25 @@ if(!$human == 0){
          <div class="col-sm-6">
            <ul>
             <li><label class="checkbox-inline">
-              <input type="checkbox" id="inlineCheckbox1" value="option1"> Bombeiro ( Sistema de Combate Contra Incêndio )
+              <input type="checkbox" name="check_list[]" value="Bombeiro (Sistema de Combate Contra Incêndio)"> Bombeiro (Sistema de Combate Contra Incêndio)
             </label></li>
             <li><label class="checkbox-inline">
-              <input type="checkbox" id="inlineCheckbox2" value="option2"> Chaveiro
+              <input type="checkbox" name="check_list[]" value="Chaveiro"> Chaveiro
             </label></li>
             <li><label class="checkbox-inline">
-              <input type="checkbox" id="inlineCheckbox3" value="option3"> Dedetização
+              <input type="checkbox" name="check_list[]" value="Dedetização"> Dedetização
             </label></li>
             <li><label class="checkbox-inline">
-              <input type="checkbox" id="inlineCheckbox4" value="option4"> Desentupimento
+              <input type="checkbox" name="check_list[]" value="Desentupimento"> Desentupimento
             </label></li>
             <li><label class="checkbox-inline">
-              <input type="checkbox" id="inlineCheckbox5" value="option5"> Elétrica
+              <input type="checkbox" name="check_list[]" value="Elétrica"> Elétrica
             </label></li>
             <li><label class="checkbox-inline">
-              <input type="checkbox" id="inlineCheckbox6" value="option6"> Gesso / Forro /Parede
+              <input type="checkbox" name="check_list[]" value="Gesso / Forro / Parede"> Gesso / Forro / Parede
             </label></li>
             <li><label class="checkbox-inline">
-              <input type="checkbox" id="inlineCheckbox7" value="option7"> Hidráulica
+              <input type="checkbox" name="check_list[]" value="Hidráulica"> Hidráulica
             </label></li>
           </ul>
         </div><!-- col-sm-6 -->
@@ -215,25 +215,25 @@ if(!$human == 0){
         <div class="col-sm-6">
          <ul>
           <li><label class="checkbox-inline">
-            <input type="checkbox" id="inlineCheckbox15" value="option15"> Informática ( T.I)
+            <input type="checkbox" name="check_list[]" value="Informática (T.I)"> Informática (T.I)
           </label></li>
           <li><label class="checkbox-inline">
-            <input type="checkbox" id="inlineCheckbox16" value="option16"> Manutenção em Portas de Enrolar ( Manual / Motorizada )
+            <input type="checkbox" name="check_list[]" value="Manutenção em Portas de Enrolar (Manual / Motorizada)"> Manutenção em Portas de Enrolar (Manual / Motorizada)
           </label></li>
           <li><label class="checkbox-inline">
-            <input type="checkbox" id="inlineCheckbox17" value="option17"> Marceneiro
+            <input type="checkbox" name="check_list[]" value="Marceneiro"> Marceneiro
           </label></li>
           <li><label class="checkbox-inline">
-            <input type="checkbox" id="inlineCheckbox18" value="option18"> Reparos Civil
+            <input type="checkbox" name="check_list[]" value="Reparos Civil"> Reparos Civil
           </label></li>
           <li><label class="checkbox-inline">
-            <input type="checkbox" id="inlineCheckbox19" value="option19"> Serralheria
+            <input type="checkbox" name="check_list[]" value="Serralheria"> Serralheria
           </label></li>
           <li><label class="checkbox-inline">
-            <input type="checkbox" id="inlineCheckbox20" value="option20"> Telhados
+            <input type="checkbox" name="check_list[]" value="Telhados"> Telhados
           </label></li>
           <li><label class="checkbox-inline">
-            <input type="checkbox" id="inlineCheckbox21" value="option21"> Vidraçaria
+            <input type="checkbox" name="check_list[]" value="Vidraçaria"> Vidraçaria
           </label></li>
         </ul>
       </div><!-- col-sm-6 -->
