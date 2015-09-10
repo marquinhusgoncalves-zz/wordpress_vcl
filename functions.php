@@ -85,4 +85,10 @@ function meu_wp_login_title() {
     return get_bloginfo('name');
 }
 add_filter('login_headertitle', 'meu_wp_login_title');
+
+// Texto admin rodape
+function remove_footer_admin () {
+    echo "Feito com o <3 por Mundo S.A";
+}
+add_filter('admin_footer_text', 'remove_footer_admin');
 ?>

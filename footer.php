@@ -31,18 +31,19 @@ if($_POST[sent]){
         <p>av. imperatriz leopoldina, 454 - sala 03
           CEP 09770-420 - bairro nova petrópolis
           são bernardo do campo - sp</p>
-          <p id="footer_tel"> T. 11 3522-7295</p>
+          <p id="footer_tel"><img src="<?php bloginfo('stylesheet_directory');?>/img/iconetel.png"/> 11&emsp;3522-7295</p>
+          <p id="footer_tel"><img src="<?php bloginfo('stylesheet_directory');?>/img/iconewhatsapp.png"/> 11 9.9772-7085</p>
           <a href="mailto:contato@vclservicos.com.br">contato@vclservicos.com.br</a>
         </div>
 
         <div id="footer_box_right">
           <?php if($email){ ?>
-          <div class = "alert alert-success" role = "alert" data-dismiss = "alert">
-            <a href = "#" class = "alert-link">Muito obrigado! Seu e-mail foi enviado com sucesso.</a>
+          <div class="alert alert-success" role="alert" data-dismiss="alert">
+            <a href="#" class="alert-link">Muito obrigado! Seu e-mail foi enviado com sucesso.</a>
           </div>
           <?php } else { if($error) { ?>
-          <div class = "alert alert-danger" role = "alert" data-dismiss = "alert">
-            <a href = "#" class = "alert-link">Precisa preencher por completo.</a>
+          <div class="alert alert-danger" role="alert" data-dismiss="alert">
+            <a href="#" class="alert-link">Precisa preencher por completo.</a>
           </div>
           <?php echo $error; ?>
           

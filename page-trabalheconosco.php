@@ -260,7 +260,8 @@ if(!$human == 0){
 <div style="height: 150px; background-color: #000; margin-top:15px">
   <div class="container" style="text-align: center">
     <img style="margin-top:15px" id="footer_logo" src="<?php bloginfo('stylesheet_directory');?>/img/logo_vcl_neg.png" alt="Logo VCL Serviços Rodapé"/>
-    <p style="display:inline-block; margin-left:15px" id="footer_tel"> T. 11 3522-7295</p>
+    <p style="display:inline-block; margin-left:15px" id="footer_tel"><img src="<?php bloginfo('stylesheet_directory');?>/img/iconetel.png"/> 11 3522-7295</p>
+    <p style="display:inline-block; margin-left:15px" id="footer_tel"><img src="<?php bloginfo('stylesheet_directory');?>/img/iconewhatsapp.png"/> 11 9.9772-7085</p>
     <a style="color: #fff; margin-left:15px" href="mailto:contato@vclservicos.com.br">contato@vclservicos.com.br</a>
     <p style="color: #fff; text-transform:uppercase">av. imperatriz leopoldina, 454 - sala 03 CEP 09770-420 - bairro nova petrópolis são bernardo do campo - sp</p>   
   </div> <!-- container -->
