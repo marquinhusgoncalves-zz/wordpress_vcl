@@ -22,7 +22,7 @@ if($_POST[sent]){
    $email = wp_mail(get_option("admin_email"),trim($_POST[your_name])." enviou uma mensagem para ".get_option("blogname"),stripslashes(trim($_POST[your_message])),"From: ".trim($_POST[your_name])." <".trim($_POST[your_email]).">\r\nReply-To:".trim($_POST[your_email]));
  }
 } ?>
-<a name="contato"></a>
+<a id="contato"></a>
 <footer>
 	<div class="container">
     <div class="footer_box">
@@ -31,8 +31,8 @@ if($_POST[sent]){
         <p>av. imperatriz leopoldina, 454 - sala 03
           CEP 09770-420 - bairro nova petrópolis
           são bernardo do campo - sp</p>
-          <p id="footer_tel"><img src="<?php bloginfo('stylesheet_directory');?>/img/iconetel.png"/> 11&emsp;3522-7295</p>
-          <p id="footer_tel"><img src="<?php bloginfo('stylesheet_directory');?>/img/iconewhatsapp.png"/> 11 9.9772-7085</p>
+          <p class="footer_tel"><img src="<?php bloginfo('stylesheet_directory');?>/img/iconetel.png" alt="Ícone telefone"/> 11&emsp;3522-7295</p>
+          <p class="footer_tel"><img src="<?php bloginfo('stylesheet_directory');?>/img/iconewhatsapp.png" alt="Ícone whatsapp"/> 11 9.9772-7085</p>
           <a href="mailto:contato@vclservicos.com.br">contato@vclservicos.com.br</a>
         </div>
 
@@ -57,13 +57,13 @@ if($_POST[sent]){
           <form action="<?php the_permalink(); ?>" id="contact_me" method="post">
             <input type="hidden" name="sent" id="sent" value="1" />
             <div class = "form-group">
-              <div id = "input-field"><input class = "form-control input-lg" type = "text" name = "your_name" id = "your_name" value = "<?php echo $_POST[your_name];?>" placeholder = "<?php echo $ph_name; ?>" /></div>
+              <div><input class = "form-control input-lg" type = "text" name = "your_name" id = "your_name" value = "<?php echo $_POST[your_name];?>" placeholder = "<?php echo $ph_name; ?>" /></div>
             </div>
             <div class = "form-group">
-              <div id = "input-field"><input class = "form-control input-lg" type="text" name="your_email" id="your_email" value="<?php echo $_POST[your_email];?>" placeholder = "<?php echo $ph_email; ?>" /></div>
+              <div><input class = "form-control input-lg" type="text" name="your_email" id="your_email" value="<?php echo $_POST[your_email];?>" placeholder = "<?php echo $ph_email; ?>" /></div>
             </div>
             <div class = "form-group">
-              <div id = "input-field"><textarea style="height: 80px !important" class = "form-control input-lg" rows = "5" name="your_message" id="your_message" placeholder = "<?php echo $ph_message; ?>"><?php echo stripslashes($_POST[your_message]); ?></textarea></div>
+              <div><textarea style="height: 80px !important" class = "form-control input-lg" rows = "5" name="your_message" id="your_message" placeholder = "<?php echo $ph_message; ?>"><?php echo stripslashes($_POST[your_message]); ?></textarea></div>
             </div>
             <button type = "submit" name = "send" class = "btn btn-danger">Enviar</button>
           </form>              

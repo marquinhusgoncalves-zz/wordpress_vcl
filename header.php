@@ -2,10 +2,9 @@
 <html <?php language_attributes(); ?>>
 <head>
 	<title><?php bloginfo('name'); ?><?php wp_title(); ?></title>
-	<meta name="author" content=“Marquinhus Goncalves“>
-	<meta name="description" content=“VCL Servicos em obras”>
-	<meta name="keywords" content=“servicos, obras, area de automacao, instalacao e manutencao eletrica, execucao e gerenciamento de projetos quantitativo de material“>
-	<meta name="robots" content="index, follow">
+	<meta name="description" content="VCL Serviços em obras">
+	<meta name="keywords" content="servicos, obras, area de automacao, instalacao e manutencao eletrica, execucao e gerenciamento de projetos quantitativo de material">
+	<meta name="robots" content="index, follow">
 	<meta charset="<?php bloginfo('charset'); ?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="format-detection" content="telephone=no">

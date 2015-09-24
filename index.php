@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-<section id="banner_top">
+<section class="banner_top">
 	<div class="container">
 		<p class="col-xs-12">
 			todos serviços
@@ -23,7 +23,7 @@
 		</p>	
 	</div>	
 </section>
-<a name="atuacao"></a>
+<a id="atuacao"></a>
 <section class="atuacao">
 	<div class="container">
 		<p class="col-xs-12 col-sm-offset-2 atuacao_box" id="atuacao_box_title">
@@ -36,7 +36,7 @@
 		</p>		
 	</div>
 </section>
-<a name="servicos"></a>
+<a id="servicos"></a>
 <section class="servicos">
 	<div class="container">
 		<div class="servicos_box">

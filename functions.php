@@ -5,7 +5,7 @@ add_filter('show_admin_bar', '__return_false');
 
 //CSS
 function wpt_register_css() {
-    wp_register_style( 'bootstrap.min', get_template_directory_uri() . '/css/bootstrap.min.css' );
+    wp_register_style( 'bootstrap.min', get_template_directory_uri() . '/css/bootstrap.css' );
     wp_enqueue_style( 'bootstrap.min' );
 }
 add_action( 'wp_enqueue_scripts', 'wpt_register_css' );

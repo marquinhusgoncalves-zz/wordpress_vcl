@@ -57,7 +57,7 @@ footer a:hover
     float: left;
 }
 
-#banner_top
+.banner_top
 {
     padding-top: 190px;
 
@@ -67,7 +67,7 @@ footer a:hover
          -o-background-size: cover;
             background-size: cover;
 }
-#banner_top p
+.banner_top p
 {
     font-size: 10em;
     font-weight: 700;
@@ -273,7 +273,7 @@ footer a:hover
 {
     display: inline-block;
 }
-#footer_tel
+.footer_tel
 {
     font-size: 2em;
     font-weight: 700;
@@ -656,7 +656,7 @@ a:hover
     {
         font-size: 2.8em !important;
     }
-    #banner_top p
+    .banner_top p
     {
         font-size: 4em !important;
 
@@ -843,7 +843,7 @@ a:hover
     {
         background-position: center top;
     }
-    #banner_top p
+    .banner_top p
     {
         font-size: 6em;
 
