@@ -2,8 +2,8 @@
 <html <?php language_attributes(); ?>>
 <head>
 	<title><?php bloginfo('name'); ?><?php wp_title(); ?></title>
-	<meta name="description" content="VCL Serviços em obras">
-	<meta name="keywords" content="servicos, obras, area de automacao, instalacao e manutencao eletrica, execucao e gerenciamento de projetos quantitativo de material">
+	<meta name="description" content="VCL Serviços em Obras">
+	<meta name="keywords" content="Serviços, Obras, Área de Automação, Instalação e Manutenção Elétrica, Execucao e Gerenciamento de Projetos Quantitativo de Material">
 	<meta name="robots" content="index, follow">
 	<meta charset="<?php bloginfo('charset'); ?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -41,7 +41,6 @@
 		// ]]></script>
 		<?php wp_head(); ?>
 	</head>
-
 	<body>
 		<header>
 			<nav class = "nav navbar-default">
