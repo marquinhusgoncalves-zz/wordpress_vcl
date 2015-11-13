@@ -40,7 +40,7 @@ if($_POST[sent]){
           </div>
           <?php echo $error; ?>
           
-          <?php } else { the_content(); } ?>
+          <?php } else { } ?>
 
           <?php if( $post_response ) : ?>
             <div class = "alert alert-<?php echo $post_response->status ?>">

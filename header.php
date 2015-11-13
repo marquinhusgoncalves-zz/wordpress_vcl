@@ -42,6 +42,7 @@
 		<?php wp_head(); ?>
 	</head>
 	<body>
+	<?php include_once("analyticstracking.php") ?>
 		<header>
 			<nav class = "nav navbar-default">
 				<div id = "navigation" class="container">
